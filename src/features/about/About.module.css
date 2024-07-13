@@ -1,0 +1,10 @@
+.about h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.about p {
+  line-height: 1.5;
+}/*# sourceMappingURL=About.module.css.map */

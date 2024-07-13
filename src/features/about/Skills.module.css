@@ -1,0 +1,41 @@
+.aboutStats {
+  background: #f3fafd;
+}
+.aboutStats .progBars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 3rem 1.1rem;
+}
+.aboutStats .progBars .progBar {
+  display: flex;
+  flex-direction: column;
+}
+.aboutStats .progBars .progBar .progText {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.aboutStats .progBars .progBar .progText .progTitle {
+  text-transform: uppercase;
+}
+.aboutStats .progBars .progBar .progCon {
+  display: flex;
+  align-items: center;
+}
+.aboutStats .progBars .progBar .progCon .progress {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #dee5e7;
+  position: relative;
+}
+.aboutStats .progBars .progBar .progCon .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #149ddd;
+  transition: all 0.4s ease-in-out;
+}/*# sourceMappingURL=Skills.module.css.map */

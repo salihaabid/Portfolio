@@ -1,0 +1,55 @@
+.aboutContainer {
+  display: flex;
+  margin: 4rem 0;
+  gap: 20px;
+  padding: 0rem 1.1rem;
+}
+.aboutContainer .imgBox {
+  width: 45%;
+}
+.aboutContainer .imgBox img {
+  height: 350px;
+}
+.aboutContainer .infoContainer h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.aboutContainer .infoContainer .infoText {
+  font-style: italic;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutContainer .infoContainer .info {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+}
+.aboutContainer .infoContainer .info .data1 {
+  margin-right: 4rem;
+}
+.aboutContainer .infoContainer .info .data {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+.aboutContainer .infoContainer .info .data .title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 15px;
+}
+.aboutContainer .infoContainer .info .data .text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.aboutContainer .infoContainer .info .data svg {
+  color: #149ddd;
+  font-size: 24px;
+}
+.aboutContainer .infoContainer .infoPara {
+  width: 97%;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}/*# sourceMappingURL=Info.module.css.map */

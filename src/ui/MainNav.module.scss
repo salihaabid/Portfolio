@@ -1,0 +1,42 @@
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0 1rem;
+  .navLink {
+    // color: #a8a9b4 !important;
+
+    &:link,
+    &:visited {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #a8a9b4 !important;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 1rem 0.2rem;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active,
+    &.active:link,
+    &.active:visited {
+      color: #ffffff;
+    }
+
+    & svg {
+      width: 1.3rem;
+      height: 1.3rem;
+      color: inherit;
+      transition: all 0.2s;
+    }
+    &:hover svg,
+    &:active svg,
+    &.active:link svg,
+    &.active:visited svg {
+      color: #149ddd;
+    }
+  }
+}

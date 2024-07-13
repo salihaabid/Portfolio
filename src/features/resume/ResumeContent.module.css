@@ -1,0 +1,18 @@
+.resume {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 1rem 2rem;
+}
+.resume .resumeData .resumeItem h2 {
+  font-size: 26px;
+  margin-top: 15px;
+}
+.resume .resumeData .resumeItem .resumeContent {
+  padding-top: 20px;
+}
+.resume .resumeData .resumeItem .resumeContent h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #404243;
+}/*# sourceMappingURL=ResumeContent.module.css.map */

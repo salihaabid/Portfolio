@@ -40,7 +40,6 @@ function Info() {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.imgBox}>
-        {/* <img src='/logo.jpg' alt='' /> */}
         <img src='/logo2.jpeg' alt='' />
       </div>
       <div className={styles.infoContainer}>
@@ -48,9 +47,7 @@ function Info() {
           <h2>UI/UX Designer & Web Developer.</h2>
           <p className={styles.infoText}>
             My expertise spans across both UI/UX design & development. I'm
-            proficient in a range of technologies and tools, and I continuously
-            strive to keep myself updated with the latest trends in the
-            industry.
+            proficient in a range of technologies and tools.
           </p>
         </div>
         <div className={styles.info}>
@@ -68,10 +65,7 @@ function Info() {
         <p className={styles.infoPara}>
           My skills include HTML, CSS, JavaScript, and the MERN stack (MongoDB,
           Express.js, React, Node.js). I am constantly learning and expanding my
-          skill set to include the latest technologies and best practices. I
-          believe in delivering high-quality work and strive to build web
-          applications that are not only functional but also provide an
-          excellent user experience.
+          skill set to include the latest technologies and best practices.
         </p>
       </div>
     </div>

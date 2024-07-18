@@ -7,13 +7,13 @@ import Resume from '../features/resume/Resume';
 import Portfolio from '../features/portfolio/Portfolio';
 import Services from '../features/services/Services';
 import Contact from '../features/contact/Contact';
-import Sidebars from './Sidebars';
+// import Sidebars from './Sidebars';
 
 function AppLayout() {
   return (
     <div className={styles.layout}>
-      <Sidebars />
-      {/* <Sidebar /> */}
+      {/* <Sidebars className={styles.sidebar} /> */}
+      <Sidebar className={styles.sidebar} />
       <main className={styles.main}>
         <Home />
         <About />

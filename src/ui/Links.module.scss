@@ -1,17 +1,18 @@
 .links {
   display: flex;
-  margin: 0;
+  margin-right: 10px;
+  margin-left: 5px;
   .link {
     list-style-type: none;
-    padding: 5px;
+    padding: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     a {
-      font-size: 19px;
+      font-size: 18px;
       color: #ffffff;
       background: darken(#a8a9b4, 50%);
-      padding: 13px;
+      padding: 12px;
       border-radius: 50%;
       display: flex;
       align-items: center;

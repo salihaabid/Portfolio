@@ -12,7 +12,7 @@ function Home() {
             <TypeAnimation
               sequence={[
                 `Developer`,
-                1500, // wait 1s before replacing "Mice" with "Hamsters"
+                1500,
                 `Freelancer`,
                 1500,
                 `Designer`,
@@ -20,7 +20,7 @@ function Home() {
                 `Student`,
                 1500,
               ]}
-              speed={30} // slower typing speed
+              speed={30}
               eraseSpeed={30}
               className={styles.typing}
               repeat={Infinity}

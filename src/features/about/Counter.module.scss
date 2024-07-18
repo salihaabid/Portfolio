@@ -16,59 +16,25 @@
       h2 {
         color: #050d18;
         font-size: 3.5rem;
-        font-weight: 800;
+        font-weight: 700;
         font-family: 'Roboto', sans-serif;
       }
       h6 {
         font-size: 15px;
         font-weight: 600;
-        color: darken(#a8a9b4, 10%);
-        padding-top: 20px;
+        color: darken(#a8a9b4, 20%);
+        padding-top: 10px;
       }
       p {
-        font-size: 16px;
-        color: darken(#a8a9b4, 10%);
+        font-size: 15px;
+        color: darken(#a8a9b4, 15%);
         line-height: 1.5;
         padding-top: 5px;
       }
     }
   }
-}
-
-/*
-this is scss '.counters {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  padding: 5rem 2rem;
-  .counter {
-    display: flex;
-    gap: 1rem;
-    svg {
-      color: #149ddd;
-      font-size: 3rem;
-    }
-    .content {
-      h2 {
-        color: #050d18;
-        font-size: 3.5rem;
-        font-weight: 800;
-        font-family: 'Roboto', sans-serif;
-      }
-      h6 {
-        font-size: 16px;
-        font-weight: bold;
-        color: #a8a9b4;
-      }
-      p {
-        font-size: 16px;
-        color: #a8a9b4;
-        line-height: 1.5;
-        padding-top: 5px;
-      }
-    }
+  @media screen and (max-width: 1150px) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 3rem;
   }
 }
-' i want the numbers and SVG aligned in a straight line as in the 2nd pic. hope u got the assignment .
-
-*/

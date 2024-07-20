@@ -32,7 +32,7 @@
         display: flex;
         align-items: center;
         .title {
-          font-size: 16px;
+          font-size: 17px;
           font-weight: 600;
           padding-right: 15px;
         }
@@ -53,7 +53,7 @@
       font-weight: 500;
     }
   }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1024px) {
     display: block;
     .imgBox {
       img {
@@ -64,8 +64,27 @@
       h2 {
         padding-top: 30px;
       }
+      .info {
+        display: block;
+        .data {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+    .imgBox {
+      img {
+        height: 500px;
+      }
+    }
+    .infoContainer {
+      h2 {
+        font-size: 24px;
+      }
       .infoText {
-        max-width: 700px;
+        font-size: 14px;
       }
       .info {
         display: block;
@@ -74,7 +93,8 @@
         }
       }
       .infoPara {
-        max-width: 700px;
+        margin-top: 30px;
+        font-size: 15px;
       }
     }
   }

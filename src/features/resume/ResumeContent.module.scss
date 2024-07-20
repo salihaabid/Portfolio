@@ -66,8 +66,10 @@
   //   //   border-radius: 50%;
   //   // }
   // }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1024px) {
     display: block;
-    max-width: 730px;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
   }
 }

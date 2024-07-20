@@ -9,7 +9,7 @@
   position: fixed;
   overflow-y: hidden;
   top: 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, left 0.5s ease;
   z-index: 100;
   .navList {
     display: flex;
@@ -22,7 +22,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        color: #a8a9b4 !important;
+        color: #a8a9b4;
         font-size: 1rem;
         font-weight: 500;
         padding: 1rem 0.2rem;
@@ -51,8 +51,7 @@
       }
     }
   }
-  .navToggle,
-  .navClose {
+  .navToggle {
     color: var(#ffffff);
     background-color: #149ddd;
     font-size: 22px;
@@ -78,19 +77,17 @@
   left: 0;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1024px) {
   .aside {
     left: -100%;
-    // display: hidden;
   }
   .aside.showMenu {
     left: 0;
   }
 }
 
-@media screen and (min-width: 1150px) {
-  .navToggle,
-  .navClose {
-    display: none;
+@media screen and (min-width: 1024px) {
+  .navToggle {
+    display: none !important;
   }
 }

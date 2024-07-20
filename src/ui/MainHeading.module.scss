@@ -22,7 +22,13 @@
     line-height: 1.5;
     font-weight: 500;
   }
-  @media screen and (max-width: 1150px) {
-    max-width: 740px;
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 14px;
+    }
   }
 }

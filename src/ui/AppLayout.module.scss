@@ -2,9 +2,12 @@
   display: flex;
   height: 100vh;
   .main {
-    margin-left: 263px;
+    margin-left: 264px;
     @media screen and (max-width: 1150px) {
       margin-left: 0;
     }
+  }
+  @media screen and (max-width: 1150px) {
+    flex-direction: column;
   }
 }

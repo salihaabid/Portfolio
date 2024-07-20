@@ -55,11 +55,8 @@ function Sidebar() {
             );
           })}
         </ul>
-        <div className={styles.navClose} onClick={toggleMenu}>
-          <IoClose />
-        </div>
         <div className={styles.navToggle} onClick={toggleMenu}>
-          <IoMenu />
+          {showMenu ? <IoClose /> : <IoMenu />}
         </div>
       </nav>
     </aside>

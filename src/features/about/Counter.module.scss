@@ -33,8 +33,21 @@
       }
     }
   }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
     padding: 5rem 3rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+    display: block;
+    .counter {
+      padding: 2rem 3rem;
+      svg {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 3rem !important;
+      }
+    }
   }
 }

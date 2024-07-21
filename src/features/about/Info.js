@@ -1,40 +1,6 @@
 import styles from './Info.module.scss';
 import { RxChevronRight } from 'react-icons/rx';
-const infoData = [
-  {
-    title: 'Birthday',
-    text: '19 Sep 2007',
-  },
-  {
-    title: 'Age',
-    text: '16',
-  },
-  {
-    title: 'Website',
-    text: 'www.example.com',
-  },
-  {
-    title: 'Phone',
-    text: '+92 301 5849768',
-  },
-  {
-    title: 'City',
-    text: 'Lahore, Pakistan',
-  },
-
-  {
-    title: 'Degree',
-    text: 'Inter',
-  },
-  {
-    title: 'Email',
-    text: 'salihabid349@gmail.com',
-  },
-  {
-    title: 'Freelance',
-    text: 'Available',
-  },
-];
+import { infoData } from '../../data/data';
 
 function Info() {
   return (

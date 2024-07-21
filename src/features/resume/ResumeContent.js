@@ -1,59 +1,8 @@
 import React from 'react';
 import styles from './ResumeContent.module.scss';
+import { resumeData1 } from '../../data/data';
+import { resumeData2 } from '../../data/data';
 
-const resumeData1 = [
-  {
-    section: 'Summary',
-    name: 'Saliha Abid',
-    description: `I have expertise in HTML, CSS, JavaScript, and the MERN stack. I'm passionate about web development and eager to expand my skills further. Currently, I'm enhancing my abilities in React to create dynamic user interfaces. I am excited to gain real-world experience through an internship, collaborate with experienced developers, and contribute to meaningful projects while continuing to grow as a web developer.`,
-    points: ['Lahore, Pakistan', '+92 301 5849768', 'salihabid349@gmail.com'],
-  },
-  {
-    section: 'Education',
-    entries: [
-      {
-        title: 'Intermediate Student',
-        date: '2023 - 2025',
-        institution:
-          'Aabru Welfare College (Academy-based learning), Lahore, Pakistan',
-        description:
-          'Currently pursuing my intermediate education at Aabru Welfare College, where I am engaged in academy-based learning. This program is equipping me with a solid academic foundation and the skills necessary for my future career in web development.',
-      },
-    ],
-  },
-];
-
-const resumeData2 = [
-  {
-    section: 'Professional Experience',
-    entries: [
-      {
-        title: 'Web Development Intern',
-        date: '2024 - Present',
-        company: 'Arfa IT Tower , Lahore, Pakistan',
-        points: [
-          'Collaborating with experienced developers on various projects.',
-          'Enhancing skills in web development and gaining real-world experience.',
-          'Contributing to the creation of dynamic and responsive web applications.',
-        ],
-      },
-    ],
-  },
-  {
-    section: 'My Skills',
-    entries: [
-      {
-        title: 'The following are the skills I pursue and continue to develop:',
-        points: [
-          'HTML & CSS: Creating structured, responsive, and visually appealing web pages.',
-          'JavaScript: Building dynamic web content.',
-          'React (ongoing): Developing dynamic and interactive user interfaces.',
-          'MERN Stack: Basic knowledge of MongoDB, Express.js, React, and Node.js.',
-        ],
-      },
-    ],
-  },
-];
 function ResumeContent() {
   return (
     <div className={styles.resume}>

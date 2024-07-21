@@ -1,32 +1,6 @@
 import MainHeading from '../../ui/MainHeading';
 import styles from './Skills.module.scss';
-
-const skillsData = [
-  {
-    title: 'html',
-    level: 100,
-  },
-  {
-    title: 'css',
-    level: 90,
-  },
-  {
-    title: 'javascript',
-    level: 70,
-  },
-  {
-    title: 'react',
-    level: 85,
-  },
-  {
-    title: 'node js',
-    level: 50,
-  },
-  {
-    title: 'express',
-    level: 40,
-  },
-];
+import { skillsData } from '../../data/data';
 
 function Skills() {
   return (

@@ -7,7 +7,7 @@ function Resume() {
     <div id='resume' className={styles.resume}>
       <MainHeading
         heading='Resume'
-        title='Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.'
+        title='As a passionate Full Stack Developer and a lifelong learner, I thrive on transforming complex problems into sleek, functional, and user-focused digital solutions. Here’s a snapshot of my professional journey and skills.'
       />
       <ResumeContent />
     </div>

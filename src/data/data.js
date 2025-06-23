@@ -2,27 +2,29 @@ import {
   BsEmojiSmile,
   BsHeadset,
   BsJournalRichtext,
-  BsPeople,
+  BsClockHistory,
   BsBarChart,
   BsBinoculars,
   BsBriefcase,
   BsBrightnessHigh,
   BsCalendar4Week,
   BsCardChecklist,
+  BsLayoutTextWindow,
+  BsCodeSlash,
+  BsDatabase,
+  BsDiagram3,
+  BsRobot,
+  BsGraphUp,
 } from 'react-icons/bs';
 
 export const infoData = [
   {
     title: 'Birthday',
-    text: '19 Sep 2008',
+    text: '19 Sep 2007',
   },
   {
     title: 'Age',
-    text: '16',
-  },
-  {
-    title: 'Website',
-    text: 'www.example.com',
+    text: '17',
   },
   {
     title: 'Phone',
@@ -45,65 +47,79 @@ export const infoData = [
     title: 'Freelance',
     text: 'Available',
   },
+  {
+    title: 'Experience',
+    text: '1.5 + years',
+  },
 ];
 
 export const counterData = [
   {
     icon: <BsEmojiSmile />,
     title: 'Happy Clients',
-    text: 'consequuntur quae',
-    end: 232,
+    text: 'Successfully delivered projects with client satisfaction',
+    end: 14,
   },
   {
     icon: <BsJournalRichtext />,
     title: 'Projects',
-    text: 'adipisci atque cum quia aut',
-    end: 521,
+    text: 'Completed diverse web development projects',
+    end: 18,
   },
   {
     icon: <BsHeadset />,
     title: 'Hours Of Support ',
-    text: 'aut commodi quaerat',
-    end: 1453,
+    text: 'Provided continuous technical support and assistance',
+    end: 330,
   },
   {
-    icon: <BsPeople />,
-    title: 'Hard Workers',
-    text: 'rerum asperiores dolor',
-    end: 32,
+    icon: <BsClockHistory />,
+    title: 'Experience Years',
+    text: 'Hands-on development experience in the tech industry',
+    end: 1.5,
   },
 ];
+
 export const skillsData = [
   {
     title: 'html',
     level: 100,
   },
   {
-    title: 'css',
-    level: 90,
+    title: 'scss',
+    level: 100,
   },
   {
     title: 'javascript',
-    level: 70,
-  },
-  {
-    title: 'react',
     level: 85,
   },
   {
+    title: 'react',
+    level: 90,
+  },
+  {
     title: 'node js',
-    level: 50,
+    level: 70,
   },
   {
     title: 'express',
-    level: 40,
+    level: 60,
+  },
+  {
+    title: 'python (scrapping & automation)',
+    level: 95,
+  },
+  {
+    title: 'postgresql',
+    level: 90,
   },
 ];
+
 export const resumeData1 = [
   {
     section: 'Summary',
     name: 'Saliha Abid',
-    description: `I have expertise in HTML, CSS, JavaScript, and the MERN stack. I'm passionate about web development and eager to expand my skills further. Currently, I'm enhancing my abilities in React to create dynamic user interfaces. I am excited to gain real-world experience through an internship, collaborate with experienced developers, and contribute to meaningful projects while continuing to grow as a web developer.`,
+    description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React, Express, Node, Mongodb), and Python tools like Django and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management with PostgreSQL, automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
     points: ['Lahore, Pakistan', '+92 301 5849768', 'salihabid349@gmail.com'],
   },
   {
@@ -126,27 +142,36 @@ export const resumeData2 = [
     section: 'Professional Experience',
     entries: [
       {
-        title: 'Web Development Intern',
-        date: '2024 - Present',
+        title: 'Full Stack Web Development Intern – PITB',
+        date: 'Jun 2024 – Sep 2024',
         company: 'Arfa IT Tower , Lahore, Pakistan',
         points: [
-          'Collaborating with experienced developers on various projects.',
-          'Enhancing skills in web development and gaining real-world experience.',
-          'Contributing to the creation of dynamic and responsive web applications.',
+          'Built responsive, interactive web applications using core JavaScript and modern JS frameworks.',
+          'Delivered real-world features across the stack including APIs, dynamic routing, and UI components.',
+        ],
+      },
+
+      {
+        title: 'Python & DB Intern – PITB',
+        date: 'Oct 2024 – March 2025',
+        company: 'Arfa IT Tower , Lahore, Pakistan',
+        points: [
+          'Developed powerful scraping scripts using Python & Selenium to extract structured data from complex websites.',
+          'Designed, stored, and maintained data using PostgreSQL with a focus on performance and integrity.',
         ],
       },
     ],
   },
+
   {
     section: 'My Skills',
     entries: [
       {
         title: 'The following are the skills I pursue and continue to develop:',
         points: [
-          'HTML & CSS: Creating structured, responsive, and visually appealing web pages.',
-          'JavaScript: Building dynamic web content.',
-          'React (ongoing): Developing dynamic and interactive user interfaces.',
-          'MERN Stack: Basic knowledge of MongoDB, Express.js, React, and Node.js.',
+          'MERN STACK: Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
+          'Python: Building dynamic web content, automation scripts, and web scraping tools.',
+          'PostgreSQL: Managing and querying relational databases efficiently for structured data workflows.',
         ],
       },
     ],
@@ -171,32 +196,32 @@ export const portData = [
 export const serviceData = [
   {
     heading: 'Front-End Development',
-    text: 'Crafting modern and responsive websites using HTML, CSS, and JavaScript.',
-    icon: <BsBriefcase />,
+    text: 'Creating responsive and visually engaging websites using HTML, CSS, and JavaScript.',
+    icon: <BsLayoutTextWindow />, // Represents front-end interface/devices
   },
   {
-    heading: 'React Development',
-    text: 'Building dynamic and interactive user interfaces with React.',
-    icon: <BsCardChecklist />,
+    heading: 'React & UI Engineering',
+    text: 'Building interactive and efficient user interfaces with React, focusing on performance and design.',
+    icon: <BsCodeSlash />, // Code-focused for React dev
   },
   {
-    heading: 'Full-Stack Development',
-    text: 'Developing complete web applications using the MERN stack (MongoDB, Express.js, React, Node.js).',
-    icon: <BsBarChart />,
+    heading: 'Full-Stack (MERN) Development',
+    text: 'Developing scalable and feature-rich applications using the MERN stack — MongoDB, Express.js, React, and Node.js.',
+    icon: <BsDiagram3 />, // Represents full architecture
   },
   {
-    heading: 'UI/UX Design',
-    text: 'Designing user-friendly and visually appealing interfaces.',
-    icon: <BsBinoculars />,
+    heading: 'Data Handling with SQL & PostgreSQL',
+    text: 'Managing and querying relational databases efficiently using SQL and PostgreSQL for structured data workflows.',
+    icon: <BsDatabase />, // Database-specific icon
   },
   {
-    heading: 'Project Collaboration',
-    text: 'Working closely with clients and teams to deliver high-quality web solutions.',
-    icon: <BsBrightnessHigh />,
+    heading: 'Automation & Web Scraping',
+    text: 'Implementing smart automation scripts, scraping web data, and managing structured data workflows using PYTHON.',
+    icon: <BsRobot />, // Automation and bot-like tasks
   },
   {
-    heading: 'Continuous Learning',
-    text: 'Staying updated with the latest web development trends and technologies to provide innovative solutions.',
-    icon: <BsCalendar4Week />,
+    heading: 'Continuous Learning & Innovation',
+    text: 'Adapting to the latest technologies and trends to consistently deliver modern, effective solutions.',
+    icon: <BsGraphUp />, // Represents progress and learning
   },
 ];

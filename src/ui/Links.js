@@ -26,7 +26,7 @@ const links = [
   },
   {
     icon: <FaLinkedin />,
-    path: 'https://www.linkedin.com/in/saliha-abid/',
+    path: 'https://www.linkedin.com/in/salihaabid/',
   },
 ];
 

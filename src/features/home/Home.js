@@ -8,7 +8,7 @@ function Home() {
         <div className={styles.text}>
           <h1>Saliha Abid</h1>
           <h2>
-            I'm{' '}
+            I'm a{' '}
             <TypeAnimation
               sequence={[
                 `Developer`,

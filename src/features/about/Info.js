@@ -6,11 +6,12 @@ function Info() {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.imgBox}>
-        <img src='/logo2.jpeg' alt='' />
+        <img src='/infoimg.jpg' alt='' width='320px' />
+        {/* <img src='/saliha_log.png' width='320px' /> */}
       </div>
       <div className={styles.infoContainer}>
         <div>
-          <h2>UI/UX Designer & Web Developer.</h2>
+          <h2>MERN Stack Dev | UI/UX & Web Automation.</h2>
           <p className={styles.infoText}>
             My expertise spans across both UI/UX design & development. I'm
             proficient in a range of technologies and tools.
@@ -30,8 +31,10 @@ function Info() {
 
         <p className={styles.infoPara}>
           My skills include HTML, CSS, JavaScript, and the MERN stack (MongoDB,
-          Express.js, React, Node.js). I am constantly learning and expanding my
-          skill set to include the latest technologies and best practices.
+          Express.js, React, Node.js). I also have experience working with
+          Python, web scraping, and PostgreSQL. I am constantly learning and
+          expanding my skill set to include the latest technologies and best
+          practices.
         </p>
       </div>
     </div>

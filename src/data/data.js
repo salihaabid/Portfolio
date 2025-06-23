@@ -14,7 +14,7 @@ import {
 export const infoData = [
   {
     title: 'Birthday',
-    text: '19 Sep 2007',
+    text: '19 Sep 2008',
   },
   {
     title: 'Age',

@@ -167,7 +167,7 @@ export const resumeData2 = [
     section: 'My Skills',
     entries: [
       {
-        title: 'The following are the skills I pursue and continue to develop:',
+        title: 'Following are the skills I pursue and continue to develop:',
         points: [
           'MERN STACK: Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
           'Python: Building dynamic web content, automation scripts, and web scraping tools.',
@@ -178,19 +178,58 @@ export const resumeData2 = [
   },
 ];
 
+// export const portData = [
+//   { id: 1, src: 'app-1.jpg', category: 'App', name: 'App 1' },
+//   { id: 4, src: 'product-1.jpg', category: 'Product', name: 'Product 1' },
+//   { id: 7, src: 'branding-1.jpg', category: 'Branding', name: 'Branding 1' },
+//   { id: 11, src: 'books-2.jpg', category: 'Books', name: 'Books 2' },
+//   { id: 5, src: 'product-2.jpg', category: 'Product', name: 'Product 2' },
+//   { id: 2, src: 'app-2.jpg', category: 'App', name: 'App 2' },
+//   { id: 6, src: 'product-3.jpg', category: 'Product', name: 'Product 3' },
+//   { id: 9, src: 'branding-3.jpg', category: 'Branding', name: 'Branding 3' },
+//   { id: 10, src: 'books-1.jpg', category: 'Books', name: 'Books 1' },
+//   { id: 3, src: 'app-3.jpg', category: 'App', name: 'App 3' },
+//   { id: 8, src: 'branding-2.jpg', category: 'Branding', name: 'Branding 2' },
+//   { id: 12, src: 'books-3.jpg', category: 'Books', name: 'Books 3' },
+// ];
+
 export const portData = [
-  { id: 1, src: 'app-1.jpg', category: 'App', name: 'App 1' },
-  { id: 4, src: 'product-1.jpg', category: 'Product', name: 'Product 1' },
-  { id: 7, src: 'branding-1.jpg', category: 'Branding', name: 'Branding 1' },
-  { id: 11, src: 'books-2.jpg', category: 'Books', name: 'Books 2' },
-  { id: 5, src: 'product-2.jpg', category: 'Product', name: 'Product 2' },
-  { id: 2, src: 'app-2.jpg', category: 'App', name: 'App 2' },
-  { id: 6, src: 'product-3.jpg', category: 'Product', name: 'Product 3' },
-  { id: 9, src: 'branding-3.jpg', category: 'Branding', name: 'Branding 3' },
-  { id: 10, src: 'books-1.jpg', category: 'Books', name: 'Books 1' },
-  { id: 3, src: 'app-3.jpg', category: 'App', name: 'App 3' },
-  { id: 8, src: 'branding-2.jpg', category: 'Branding', name: 'Branding 2' },
-  { id: 12, src: 'books-3.jpg', category: 'Books', name: 'Books 3' },
+  {
+    id: 1,
+    name: 'WORLDWISE',
+    description: 'A travelling web project where you can add travel notes.',
+    src: 'worldwise.png', // Optional thumbnail
+    liveLink: 'https://worldwise-nu.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/Worldwise',
+    category: 'MERN',
+  },
+  {
+    id: 2,
+    name: 'PZZA CO.',
+    description: 'My personal responsive portfolio built with React.',
+    src: 'pizza.png',
+    liveLink: 'https://react-pizza-co-jet.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/react-pizza-co',
+    category: 'React',
+  },
+  {
+    id: 3,
+    name: 'Weather App',
+    description: 'A simple weather app using OpenWeather API.',
+    src: '/images/weather.png',
+    liveLink: 'https://weatherapp.com',
+    githubLink: 'https://github.com/username/weather-app',
+    category: 'Vanilla',
+  },
+  {
+    id: 4,
+    name: 'MINIFLIX',
+    description: 'A movie streaming platform with a sleek UI.',
+    src: 'miniflix.png',
+    liveLink: 'https://weatherapp.com',
+    githubLink: 'https://github.com/salihaabid/Miniflixx',
+    category: 'Vanilla',
+  },
 ];
 
 export const serviceData = [

@@ -7,7 +7,6 @@ function Info() {
     <div className={styles.aboutContainer}>
       <div className={styles.imgBox}>
         <img src='/infoimg.jpg' alt='' />
-        {/* <img src='/saliha_log.png' width='320px' /> */}
       </div>
       <div className={styles.infoContainer}>
         <div>

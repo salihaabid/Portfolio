@@ -1,6 +1,6 @@
-import { LuZoomIn } from 'react-icons/lu';
 import styles from './PortItems.module.scss';
 import { ImLink } from 'react-icons/im';
+import { FaGithub } from 'react-icons/fa';
 
 function PortItems({ images }) {
   return (
@@ -14,10 +14,18 @@ function PortItems({ images }) {
             <div className={styles.hoverItems}>
               <h4>{img.name}</h4>
               <div className={styles.icons}>
-                <LuZoomIn />
-                <ImLink />
+                {img.githubLink && (
+                  <a href={img.githubLink} target='_blank' rel='noreferrer'>
+                    <FaGithub />
+                  </a>
+                )}
+                {img.liveLink && (
+                  <a href={img.liveLink} target='_blank' rel='noreferrer'>
+                    <ImLink />
+                  </a>
+                )}
               </div>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
+              <p>{img.description}</p>
             </div>
           </div>
         );

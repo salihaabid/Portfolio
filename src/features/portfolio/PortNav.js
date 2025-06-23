@@ -12,29 +12,29 @@ function PortNav({ activeFilter, onFilterChange }) {
             All
           </li>
           <li
-            className={activeFilter === 'App' ? styles.active : ''}
-            onClick={() => onFilterChange('App')}
+            className={activeFilter === 'MERN' ? styles.active : ''}
+            onClick={() => onFilterChange('MERN')}
           >
-            App
+            MERN
           </li>
           <li
-            className={activeFilter === 'Product' ? styles.active : ''}
-            onClick={() => onFilterChange('Product')}
+            className={activeFilter === 'React' ? styles.active : ''}
+            onClick={() => onFilterChange('React')}
           >
-            Product
+            React
           </li>
           <li
-            className={activeFilter === 'Branding' ? styles.active : ''}
-            onClick={() => onFilterChange('Branding')}
+            className={activeFilter === 'Vanilla' ? styles.active : ''}
+            onClick={() => onFilterChange('Vanilla')}
           >
-            Branding
+            Vanilla
           </li>
-          <li
+          {/* <li
             className={activeFilter === 'Books' ? styles.active : ''}
             onClick={() => onFilterChange('Books')}
           >
             Books
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

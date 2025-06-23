@@ -214,11 +214,11 @@ export const portData = [
   },
   {
     id: 3,
-    name: 'Weather App',
-    description: 'A simple weather app using OpenWeather API.',
-    src: '/images/weather.png',
+    name: 'CARA',
+    description: 'An aesthetic attire store with a modern design. ',
+    src: 'attire.png',
     liveLink: 'https://weatherapp.com',
-    githubLink: 'https://github.com/username/weather-app',
+    githubLink: 'https://github.com/salihaabid/attire-ecommerce',
     category: 'Vanilla',
   },
   {
@@ -226,9 +226,9 @@ export const portData = [
     name: 'MINIFLIX',
     description: 'A movie streaming platform with a sleek UI.',
     src: 'miniflix.png',
-    liveLink: 'https://weatherapp.com',
+    liveLink: 'miniflixx.vercel.app',
     githubLink: 'https://github.com/salihaabid/Miniflixx',
-    category: 'Vanilla',
+    category: 'React',
   },
 ];
 

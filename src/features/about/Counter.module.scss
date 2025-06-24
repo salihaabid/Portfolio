@@ -50,30 +50,21 @@
       }
     }
   }
-}
-@media screen and (max-width: 320px) {
-  .counterContainer {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .counterTitle {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-
-  .counterItems {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .counterItem {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border-radius: 8px;
+  @media screen and (max-width: 375px) {
+    margin: 0 0 0 -53px !important;
+    width: 150%;
+    display: block;
+    .counter {
+      padding: 2rem 3rem;
+      svg {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 3rem !important;
+      }
+      .content {
+        width: 70%;
+      }
+    }
   }
 }

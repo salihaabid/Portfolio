@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './ResumeContent.module.scss';
 import { resumeData1 } from '../../data/data';
 import { resumeData2 } from '../../data/data';

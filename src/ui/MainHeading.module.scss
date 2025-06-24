@@ -31,4 +31,13 @@
       font-size: 14px;
     }
   }
+  @media screen and (max-width: 375px) {
+    margin: 0 0.5rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 }

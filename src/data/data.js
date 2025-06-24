@@ -3,12 +3,6 @@ import {
   BsHeadset,
   BsJournalRichtext,
   BsClockHistory,
-  BsBarChart,
-  BsBinoculars,
-  BsBriefcase,
-  BsBrightnessHigh,
-  BsCalendar4Week,
-  BsCardChecklist,
   BsLayoutTextWindow,
   BsCodeSlash,
   BsDatabase,
@@ -20,11 +14,11 @@ import {
 export const infoData = [
   {
     title: 'Birthday',
-    text: '19 Sep 2007',
+    text: '19 Sep 2005',
   },
   {
     title: 'Age',
-    text: '17',
+    text: '20',
   },
   {
     title: 'Phone',
@@ -37,7 +31,7 @@ export const infoData = [
 
   {
     title: 'Degree',
-    text: 'Inter',
+    text: 'continued.. ',
   },
   {
     title: 'Email',
@@ -49,7 +43,7 @@ export const infoData = [
   },
   {
     title: 'Experience',
-    text: '1.5 + years',
+    text: '2 + years',
   },
 ];
 
@@ -90,6 +84,10 @@ export const skillsData = [
     level: 100,
   },
   {
+    title: 'bootstrap',
+    level: 98,
+  },
+  {
     title: 'javascript',
     level: 85,
   },
@@ -112,6 +110,10 @@ export const skillsData = [
   {
     title: 'postgresql',
     level: 90,
+  },
+  {
+    title: 'mongodb',
+    level: 85,
   },
 ];
 

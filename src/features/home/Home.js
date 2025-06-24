@@ -17,8 +17,6 @@ function Home() {
                 1500,
                 `Designer`,
                 1500,
-                `Student`,
-                1500,
               ]}
               speed={30}
               eraseSpeed={30}

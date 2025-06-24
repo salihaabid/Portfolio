@@ -77,17 +77,24 @@
   left: 0;
 }
 
-@media screen and (max-width: 1024px) {
+/* Sidebar hidden by default on screens smaller than 1150px */
+@media screen and (max-width: 1150px) {
   .aside {
-    left: -100%;
+    left: -100%; /* Hide sidebar off-screen */
   }
+
   .aside.showMenu {
-    left: 0;
+    left: 0; /* Show sidebar when menu button toggled */
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* Sidebar permanently visible & navToggle hidden on larger screens */
+@media screen and (min-width: 1150px) {
+  .aside {
+    left: 0; /* Sidebar stays visible */
+  }
+
   .navToggle {
-    display: none !important;
+    display: none !important; /* Hide burger menu icon */
   }
 }

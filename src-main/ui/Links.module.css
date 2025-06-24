@@ -1,0 +1,27 @@
+.links {
+  display: flex;
+  margin: 0;
+}
+.links .link {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links .link a {
+  font-size: 19px;
+  color: #ffffff;
+  background: #2b2c32;
+  padding: 13px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.links .link a:hover {
+  background: #149ddd;
+}/*# sourceMappingURL=Links.module.css.map */

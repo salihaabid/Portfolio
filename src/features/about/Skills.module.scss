@@ -54,3 +54,27 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 320px) {
+  .aboutStats {
+    padding: 2rem 1rem;
+  }
+
+  .progBars {
+    grid-template-columns: 1fr; 
+    grid-gap: 1rem;
+    padding: 2rem 0.8rem;
+  }
+
+  .progText {
+    font-size: 11px;
+    padding-bottom: 7px;
+  }
+
+  .progTitle {
+    font-size: 10px;
+  }
+
+  .progress {
+    height: 0.5rem;
+  }
+}

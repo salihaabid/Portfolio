@@ -178,21 +178,6 @@ export const resumeData2 = [
   },
 ];
 
-// export const portData = [
-//   { id: 1, src: 'app-1.jpg', category: 'App', name: 'App 1' },
-//   { id: 4, src: 'product-1.jpg', category: 'Product', name: 'Product 1' },
-//   { id: 7, src: 'branding-1.jpg', category: 'Branding', name: 'Branding 1' },
-//   { id: 11, src: 'books-2.jpg', category: 'Books', name: 'Books 2' },
-//   { id: 5, src: 'product-2.jpg', category: 'Product', name: 'Product 2' },
-//   { id: 2, src: 'app-2.jpg', category: 'App', name: 'App 2' },
-//   { id: 6, src: 'product-3.jpg', category: 'Product', name: 'Product 3' },
-//   { id: 9, src: 'branding-3.jpg', category: 'Branding', name: 'Branding 3' },
-//   { id: 10, src: 'books-1.jpg', category: 'Books', name: 'Books 1' },
-//   { id: 3, src: 'app-3.jpg', category: 'App', name: 'App 3' },
-//   { id: 8, src: 'branding-2.jpg', category: 'Branding', name: 'Branding 2' },
-//   { id: 12, src: 'books-3.jpg', category: 'Books', name: 'Books 3' },
-// ];
-
 export const portData = [
   {
     id: 1,
@@ -217,7 +202,7 @@ export const portData = [
     name: 'CARA',
     description: 'An aesthetic attire store with a modern design. ',
     src: 'attire.png',
-    liveLink: 'https://weatherapp.com',
+    liveLink: 'https://attire-ecommerce-five.vercel.app/',
     githubLink: 'https://github.com/salihaabid/attire-ecommerce',
     category: 'Vanilla',
   },

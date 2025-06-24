@@ -73,3 +73,27 @@
     margin: 0 2rem;
   }
 }
+@media screen and (max-width: 320px) {
+  .resumeSection {
+    padding: 1rem 0.5rem;
+  }
+
+  .resumeTitle {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .resumeItem {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .resumeDate {
+    font-size: 0.75rem;
+  }
+
+  .resumeDescription {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+}

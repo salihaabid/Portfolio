@@ -1,0 +1,34 @@
+.mainHeading {
+  padding: 1rem 1.1rem;
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 4rem;
+      height: 0.2rem;
+      background: #149ddd;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  p {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 3rem 1.1rem;
+}
+.services .service {
+  display: flex;
+}
+.services .service .serviceIcon {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services .service .serviceIcon svg {
+  font-size: 20px;
+  background: #149ddd;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.services .service .serviceTxt {
+  margin-left: 10px;
+}
+.services .service .serviceTxt h4 {
+  font-size: 22px;
+}
+.services .service .serviceTxt p {
+  margin-top: 15px;
+  font-size: 15.8px;
+  font-weight: 400;
+  line-height: 2;
+  font-family: "Roboto", sans-serif;
+  color: #242424;
+}/*# sourceMappingURL=Service.module.css.map */

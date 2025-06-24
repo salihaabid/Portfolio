@@ -41,3 +41,30 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .heroText {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    top: auto;
+    left: auto;
+    position: static;
+    word-break: break-word;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

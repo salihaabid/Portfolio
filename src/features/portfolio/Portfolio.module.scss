@@ -3,3 +3,33 @@
   padding: 2.5rem 0;
   margin-top: 3rem;
 }
+@media screen and (max-width: 320px) {
+  .portfolioContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .portfolioHeader {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .portfolioGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .portfolioContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .portfolioHeader {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .portfolioGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

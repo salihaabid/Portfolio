@@ -12,17 +12,17 @@ import {
 } from 'react-icons/bs';
 
 export const infoData = [
-  {
-    title: 'Birthday',
-    text: '19 Sep 2005',
-  },
-  {
-    title: 'Age',
-    text: '20',
-  },
+  // {
+  //   title: 'Birthday',
+  //   text: '19 Sep 2005',
+  // },
+  // {
+  //   title: 'Age',
+  //   text: '20',
+  // },
   {
     title: 'Phone',
-    text: '+92 301 5849768',
+    text: '+92 320 6468349',
   },
   {
     title: 'City',
@@ -31,7 +31,7 @@ export const infoData = [
 
   {
     title: 'Degree',
-    text: 'continued.. ',
+    text: 'Software Engineering',
   },
   {
     title: 'Email',
@@ -64,7 +64,7 @@ export const counterData = [
     icon: <BsHeadset />,
     title: 'Hours Of Support ',
     text: 'Provided continuous technical support and assistance',
-    end: 330,
+    end: 4763,
   },
   {
     icon: <BsClockHistory />,
@@ -76,44 +76,45 @@ export const counterData = [
 
 export const skillsData = [
   {
-    title: 'html',
-    level: 100,
+    title: 'API Integration',
+    level: 90,
   },
+
+  // {
+  //   title: 'MUI (Material UI)',
+  //   level: 98,
+  // },
   {
-    title: 'scss',
-    level: 100,
-  },
-  {
-    title: 'bootstrap',
-    level: 98,
-  },
-  {
-    title: 'javascript',
+    title: 'JavaScript',
     level: 85,
   },
   {
-    title: 'react',
+    title: 'React.js',
     level: 90,
   },
   {
-    title: 'node js',
+    title: 'Node.js',
     level: 70,
   },
   {
-    title: 'express',
+    title: 'Express.js',
     level: 60,
   },
   {
-    title: 'python (scrapping & automation)',
+    title: 'MongoDb',
+    level: 85,
+  },
+  {
+    title: 'Python (Scraping & Automation)',
     level: 95,
   },
+  // {
+  //   title: 'web scrapping (selenium, scrapy)',
+  //   level: 980,
+  // },
   {
-    title: 'postgresql',
+    title: 'PostgreSQL',
     level: 90,
-  },
-  {
-    title: 'mongodb',
-    level: 85,
   },
 ];
 
@@ -121,7 +122,7 @@ export const resumeData1 = [
   {
     section: 'Summary',
     name: 'Saliha Abid',
-    description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React, Express, Node, Mongodb), and Python tools like Django and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management with PostgreSQL, automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
+    description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React.js, Express.js, Node.js, Mongodb), and Python tools like Scrapy and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management, web automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
     points: ['Lahore, Pakistan', '+92 301 5849768', 'salihabid349@gmail.com'],
   },
   {
@@ -206,48 +207,71 @@ export const portData = [
     src: 'attire.png',
     liveLink: 'https://attire-ecommerce-five.vercel.app/',
     githubLink: 'https://github.com/salihaabid/attire-ecommerce',
-    category: 'Vanilla',
+    category: 'React',
   },
   {
     id: 4,
     name: 'MINIFLIX',
     description: 'A movie streaming platform with a sleek UI.',
     src: 'miniflix.png',
-    liveLink: 'miniflixx.vercel.app',
+    liveLink: 'https://miniflixx.vercel.app/',
     githubLink: 'https://github.com/salihaabid/Miniflixx',
     category: 'React',
+  },
+  {
+    id: 5,
+    name: 'THE ATOMIC BLOG',
+    description: 'A minimal blog to share atomic thoughts.',
+    src: 'atomic-blog-2.png',
+    liveLink: 'https://react-blog-seven-chi.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/react-blog',
+    category: 'React',
+  },
+  {
+    id: 6,
+    name: 'FAR AWAY',
+    description: 'Travel packing checklist app with progress tracking.',
+    src: 'far-away.png',
+    liveLink: 'https://far-away-gamma-woad.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/far-away',
+    category: 'React',
+  },
+  {
+    id: 7,
+    name: 'EAT-N-SPLIT',
+    description: 'Track and split expenses with friends.',
+    src: 'eat-n-split.png',
+    liveLink: 'https://eat-n-split-sandy.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/eat-n-split',
+    category: 'Vanilla',
   },
 ];
 
 export const serviceData = [
   {
     heading: 'Front-End Development',
-    text: 'Creating responsive and visually engaging websites using HTML, CSS, and JavaScript.',
+    text: 'Building interactive and efficient user interfaces with React.js and MUI, focusing on performance and design.',
     icon: <BsLayoutTextWindow />, // Represents front-end interface/devices
   },
   {
-    heading: 'React & UI Engineering',
-    text: 'Building interactive and efficient user interfaces with React, focusing on performance and design.',
+    heading: 'Back-End Development',
+    text: 'Creating robust server-side applications using Node.js and Express.js, ensuring seamless data handling and API integration.',
     icon: <BsCodeSlash />, // Code-focused for React dev
   },
+
   {
-    heading: 'Full-Stack (MERN) Development',
-    text: 'Developing scalable and feature-rich applications using the MERN stack — MongoDB, Express.js, React, and Node.js.',
-    icon: <BsDiagram3 />, // Represents full architecture
-  },
-  {
-    heading: 'Data Handling with SQL & PostgreSQL',
-    text: 'Managing and querying relational databases efficiently using SQL and PostgreSQL for structured data workflows.',
+    heading: 'Database Management',
+    text: 'Managing and querying relational databases efficiently using NoSQL(MongoDb) and SQL(PostgreSQL) for structured data workflows.',
     icon: <BsDatabase />, // Database-specific icon
   },
   {
-    heading: 'Automation & Web Scraping',
+    heading: 'Web Automation & Scraping',
     text: 'Implementing smart automation scripts, scraping web data, and managing structured data workflows using PYTHON.',
     icon: <BsRobot />, // Automation and bot-like tasks
   },
   {
-    heading: 'Continuous Learning & Innovation',
-    text: 'Adapting to the latest technologies and trends to consistently deliver modern, effective solutions.',
-    icon: <BsGraphUp />, // Represents progress and learning
+    heading: 'Full-Stack (MERN) Development',
+    text: 'Developing scalable and feature-rich applications using the MERN stack i.e. MongoDB, Express.js, React.js, and Node.js.',
+    icon: <BsDiagram3 />, // Represents full architecture
   },
 ];

@@ -10,10 +10,11 @@ function Info() {
       </div>
       <div className={styles.infoContainer}>
         <div>
-          <h2>MERN Stack Dev | UI/UX & Web Automation.</h2>
+          <h2>MERN Stack Developer </h2>
           <p className={styles.infoText}>
-            My expertise spans across both UI/UX design & development. I'm
-            proficient in a range of technologies and tools.
+            I specialize in developing efficient and interactive web
+            applications. I'm comfortable working with a variety of technologies
+            and tools.
           </p>
         </div>
         <div className={styles.info}>
@@ -29,9 +30,9 @@ function Info() {
         </div>
 
         <p className={styles.infoPara}>
-          My skills include HTML, CSS, JavaScript, and the MERN stack (MongoDB,
-          Express.js, React, Node.js). I also have experience working with
-          Python, web scraping, and PostgreSQL. I am constantly learning and
+          My skills include JavaScript, and the MERN stack (MongoDB, Express.js,
+          React js, Node.js). I also have experience working with Python, web
+          automation & scraping, and PostgreSQL. I am constantly learning and
           expanding my skill set to include the latest technologies and best
           practices.
         </p>

@@ -10,14 +10,7 @@ function Home() {
           <h2>
             I'm a{' '}
             <TypeAnimation
-              sequence={[
-                `Developer`,
-                1500,
-                `Freelancer`,
-                1500,
-                `Designer`,
-                1500,
-              ]}
+              sequence={[`Developer`, 1500, `Freelancer`, 1500]}
               speed={30}
               eraseSpeed={30}
               className={styles.typing}

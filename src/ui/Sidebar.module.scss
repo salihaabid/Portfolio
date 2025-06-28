@@ -11,10 +11,11 @@
   top: 0;
   transition: transform 0.3s ease, left 0.5s ease;
   z-index: 100;
+  width: 264px;
   .navList {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0rem;
     padding: 0 1rem;
     .navLink {
       &:link,

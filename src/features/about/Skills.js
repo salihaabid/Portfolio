@@ -22,7 +22,7 @@ function Skills() {
     <div className={styles.aboutStats} ref={ref}>
       <MainHeading
         heading='Skills'
-        title='I have developed a diverse set of skills in web development, backend technologies, and data handling. Below are the key areas where I excel:'
+        title='I have developed a diverse set of skills in web development, backend technologies and database management. Below are the key areas where I excel:'
       />
 
       <div className={styles.progBars}>

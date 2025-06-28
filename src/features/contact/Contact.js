@@ -62,6 +62,14 @@ const ContactInfo = () => {
           tabIndex='0'
         ></iframe>
       </div>
+      {/* <div className='mt-6'>
+        <Lottie
+          animationData={require('./paperplane.json')} // or use a local JSON file or import URL via fetch
+          loop
+          autoplay
+          style={{ height: '250px', width: '100%' }}
+        />
+      </div> */}
     </div>
   );
 };

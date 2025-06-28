@@ -58,7 +58,7 @@ export const counterData = [
     icon: <BsJournalRichtext />,
     title: 'Projects',
     text: 'Completed diverse web development projects',
-    end: 18,
+    end: 7,
   },
   {
     icon: <BsHeadset />,

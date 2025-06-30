@@ -49,7 +49,7 @@ const ContactInfo = () => {
           <p>salihabid349@gmail.com</p>
         </div>
       </div>
-
+      {/* 
       <div className={styles.map}>
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.926204021198!2d-74.01337998459297!3d40.71277527933002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a31660d7fd3%3A0x3a17ab3cd3c5b22c!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1598054724189!5m2!1sen!2sus'
@@ -61,15 +61,14 @@ const ContactInfo = () => {
           aria-hidden='false'
           tabIndex='0'
         ></iframe>
-      </div>
-      {/* <div className='mt-6'>
-        <Lottie
-          animationData={require('./paperplane.json')} // or use a local JSON file or import URL via fetch
-          loop
-          autoplay
-          style={{ height: '250px', width: '100%' }}
-        />
       </div> */}
+      <div className={styles.banner}>
+        <h3>Got a project in mind?</h3>
+        <p>
+          Let’s connect and bring your ideas to life — together, we’ll create
+          something you’ll be proud to call yours.
+        </p>
+      </div>
     </div>
   );
 };

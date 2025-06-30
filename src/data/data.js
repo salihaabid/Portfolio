@@ -255,7 +255,7 @@ export const serviceData = [
   },
   {
     heading: 'Back-End Development',
-    text: 'Creating robust server-side applications using Node.js and Express.js, ensuring seamless data handling and API integration.',
+    text: 'Creating robust server-side applications using Node.js and Express.js, ensuring seamless data processing and API integration.',
     icon: <BsCodeSlash />, // Code-focused for React dev
   },
 

@@ -155,15 +155,15 @@ export const resumeData2 = [
         points: [
           {
             heading: 'MERN STACK',
-            text: 'Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
+            text: 'Creating structured, responsive, interactive, dynamic, and visually appealing web applications with efficient functionality.',
           },
           {
             heading: 'Python',
-            text: 'Building dynamic web content, automation scripts, and web scraping tools.',
+            text: 'Building dynamic web content, automation scripts, and powerful web scraping tools for streamlined processes.',
           },
           {
             heading: 'PostgreSQL',
-            text: 'Managing and querying relational databases efficiently for structured data workflows.',
+            text: 'Managing and querying relational databases efficiently with optimized data handling and workflow support.',
           },
         ],
       },

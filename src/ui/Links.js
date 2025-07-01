@@ -12,7 +12,7 @@ const links = [
   // },
   {
     icon: <FaEnvelope />,
-    path: 'mailto:salihabid349@gmail.com',
+    path: 'mailto:salihabid349@gmail.com?subject=Hey%20Saliha&body=Just%20wanted%20to%20reach%20out!',
   },
   {
     icon: <FaLinkedin />,

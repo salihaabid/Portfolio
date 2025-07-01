@@ -17,18 +17,18 @@ function PortNav({ activeFilter, onFilterChange }) {
           >
             MERN
           </li>
-          <li
+          {/* <li
             className={activeFilter === 'React' ? styles.active : ''}
             onClick={() => onFilterChange('React')}
           >
             React
-          </li>
-          <li
+          </li> */}
+          {/* <li
             className={activeFilter === 'Vanilla' ? styles.active : ''}
             onClick={() => onFilterChange('Vanilla')}
           >
             Vanilla
-          </li>
+          </li> */}
           {/* <li
             className={activeFilter === 'Books' ? styles.active : ''}
             onClick={() => onFilterChange('Books')}

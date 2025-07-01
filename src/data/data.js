@@ -8,18 +8,9 @@ import {
   BsDatabase,
   BsDiagram3,
   BsRobot,
-  BsGraphUp,
 } from 'react-icons/bs';
 
 export const infoData = [
-  // {
-  //   title: 'Birthday',
-  //   text: '19 Sep 2005',
-  // },
-  // {
-  //   title: 'Age',
-  //   text: '20',
-  // },
   {
     title: 'Phone',
     text: '+92 320 6468349',
@@ -27,11 +18,6 @@ export const infoData = [
   {
     title: 'City',
     text: 'Lahore, Pakistan',
-  },
-
-  {
-    title: 'Degree',
-    text: 'Software Engineering',
   },
   {
     title: 'Email',
@@ -76,15 +62,6 @@ export const counterData = [
 
 export const skillsData = [
   {
-    title: 'API Integration',
-    level: 90,
-  },
-
-  // {
-  //   title: 'MUI (Material UI)',
-  //   level: 98,
-  // },
-  {
     title: 'JavaScript',
     level: 85,
   },
@@ -105,34 +82,38 @@ export const skillsData = [
     level: 85,
   },
   {
+    title: 'PostgreSQL',
+    level: 90,
+  },
+
+  {
+    title: 'API Integration',
+    level: 90,
+  },
+  {
     title: 'Python (Scraping & Automation)',
     level: 95,
   },
+
   // {
   //   title: 'web scrapping (selenium, scrapy)',
   //   level: 980,
   // },
-  {
-    title: 'PostgreSQL',
-    level: 90,
-  },
 ];
 
 export const resumeData1 = [
   {
     section: 'Summary',
-    name: 'Saliha Abid',
+    // name: 'Saliha Abid',
     description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React.js, Express.js, Node.js, Mongodb), and Python tools like Scrapy and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management, web automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
-    points: ['Lahore, Pakistan', '+92 301 5849768', 'salihabid349@gmail.com'],
   },
   {
     section: 'Education',
     entries: [
       {
         title: 'Intermediate Student',
-        date: '2023 - 2025',
-        institution:
-          'Aabru Welfare College (Academy-based learning), Lahore, Pakistan',
+        // date: '',
+        institution: 'Aabru Welfare College, Lahore, Pakistan  (2023 - 2025)',
         description:
           'Currently pursuing my intermediate education at Aabru Welfare College, where I am engaged in academy-based learning. This program is equipping me with a solid academic foundation and the skills necessary for my future career in web development.',
       },
@@ -146,20 +127,20 @@ export const resumeData2 = [
     entries: [
       {
         title: 'Full Stack Web Development Intern – PITB',
-        date: 'Jun 2024 – Sep 2024',
-        company: 'Arfa IT Tower , Lahore, Pakistan',
+        // date: '',
+        company: 'Arfa IT Tower , Lahore, Pakistan (Jun 2024 – Sep 2024)',
         points: [
-          'Built responsive, interactive web applications using core JavaScript and modern JS frameworks.',
-          'Delivered real-world features across the stack including APIs, dynamic routing, and UI components.',
+          'Developed full-stack web applications using modern JavaScript frameworks, focusing on responsiveness, dynamic routing, and component-based UI design.',
+          'Integrated RESTful APIs and supported backend interactions using Node.js and Express.',
         ],
       },
 
       {
         title: 'Python & DB Intern – PITB',
-        date: 'Oct 2024 – March 2025',
-        company: 'Arfa IT Tower , Lahore, Pakistan',
+        // date: '',
+        company: 'Arfa IT Tower, Lahore, Pakistan (Oct 2024 – March 2025)',
         points: [
-          'Developed powerful scraping scripts using Python & Selenium to extract structured data from complex websites.',
+          'Developed powerful scraping scripts using Python & Selenium to extract unstructured data from complex websites.',
           'Designed, stored, and maintained data using PostgreSQL with a focus on performance and integrity.',
         ],
       },
@@ -172,14 +153,85 @@ export const resumeData2 = [
       {
         title: 'Following are the skills I pursue and continue to develop:',
         points: [
-          'MERN STACK: Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
-          'Python: Building dynamic web content, automation scripts, and web scraping tools.',
-          'PostgreSQL: Managing and querying relational databases efficiently for structured data workflows.',
+          {
+            heading: 'MERN STACK',
+            text: 'Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
+          },
+          {
+            heading: 'Python',
+            text: 'Building dynamic web content, automation scripts, and web scraping tools.',
+          },
+          {
+            heading: 'PostgreSQL',
+            text: 'Managing and querying relational databases efficiently for structured data workflows.',
+          },
         ],
       },
     ],
   },
 ];
+
+// export const resumeData1 = [
+//   {
+//     section: 'Summary',
+//     // name: 'Saliha Abid',
+//     description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React.js, Express.js, Node.js, Mongodb), and Python tools like Scrapy and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management, web automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
+//   },
+//   {
+//     section: 'Education',
+//     entries: [
+//       {
+//         title: 'Intermediate Student',
+//         date: '2023 - 2025',
+//         institution:
+//           'Aabru Welfare College (Academy-based learning), Lahore, Pakistan',
+//         description:
+//           'Currently pursuing my intermediate education at Aabru Welfare College, where I am engaged in academy-based learning. This program is equipping me with a solid academic foundation and the skills necessary for my future career in web development.',
+//       },
+//     ],
+//   },
+// ];
+
+// export const resumeData2 = [
+//   {
+//     section: 'Professional Experience',
+//     entries: [
+//       {
+//         title: 'Full Stack Web Development Intern – PITB',
+//         date: 'Jun 2024 – Sep 2024',
+//         company: 'Arfa IT Tower , Lahore, Pakistan',
+//         points: [
+//           'Built responsive, interactive web applications using core JavaScript and modern JS frameworks.',
+//           'Delivered real-world features across the stack including APIs, dynamic routing, and UI components.',
+//         ],
+//       },
+
+//       {
+//         title: 'Python & DB Intern – PITB',
+//         date: 'Oct 2024 – March 2025',
+//         company: 'Arfa IT Tower , Lahore, Pakistan',
+//         points: [
+//           'Developed powerful scraping scripts using Python & Selenium to extract structured data from complex websites.',
+//           'Designed, stored, and maintained data using PostgreSQL with a focus on performance and integrity.',
+//         ],
+//       },
+//     ],
+//   },
+
+//   {
+//     section: 'My Skills',
+//     entries: [
+//       {
+//         title: 'Following are the skills I pursue and continue to develop:',
+//         points: [
+//           'MERN STACK: Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
+//           'Python: Building dynamic web content, automation scripts, and web scraping tools.',
+//           'PostgreSQL: Managing and querying relational databases efficiently for structured data workflows.',
+//         ],
+//       },
+//     ],
+//   },
+// ];
 
 export const portData = [
   {
@@ -198,7 +250,7 @@ export const portData = [
     src: 'pizza.png',
     liveLink: 'https://react-pizza-co-jet.vercel.app/',
     githubLink: 'https://github.com/salihaabid/react-pizza-co',
-    category: 'React',
+    category: 'MERN',
   },
   {
     id: 3,
@@ -207,7 +259,7 @@ export const portData = [
     src: 'attire.png',
     liveLink: 'https://attire-ecommerce-five.vercel.app/',
     githubLink: 'https://github.com/salihaabid/attire-ecommerce',
-    category: 'React',
+    category: 'MERN',
   },
   {
     id: 4,
@@ -216,7 +268,7 @@ export const portData = [
     src: 'miniflix.png',
     liveLink: 'https://miniflixx.vercel.app/',
     githubLink: 'https://github.com/salihaabid/Miniflixx',
-    category: 'React',
+    category: 'MERN',
   },
   {
     id: 5,
@@ -225,7 +277,7 @@ export const portData = [
     src: 'atomic-blog-2.png',
     liveLink: 'https://react-blog-seven-chi.vercel.app/',
     githubLink: 'https://github.com/salihaabid/react-blog',
-    category: 'React',
+    category: 'MERN',
   },
   {
     id: 6,
@@ -234,7 +286,7 @@ export const portData = [
     src: 'far-away.png',
     liveLink: 'https://far-away-gamma-woad.vercel.app/',
     githubLink: 'https://github.com/salihaabid/far-away',
-    category: 'React',
+    category: 'MERN',
   },
   {
     id: 7,
@@ -261,17 +313,17 @@ export const serviceData = [
 
   {
     heading: 'Database Management',
-    text: 'Managing and querying relational databases efficiently using NoSQL(MongoDb) and SQL(PostgreSQL) for structured data workflows.',
+    text: 'Managing and querying relational databases efficiently using NoSQL(MongoDb) and SQL(PostgreSQL) for data workflows.',
     icon: <BsDatabase />, // Database-specific icon
   },
   {
     heading: 'Web Automation & Scraping',
-    text: 'Implementing smart automation scripts, scraping web data, and managing structured data workflows using PYTHON.',
+    text: 'Implementing smart automation scripts, scraping web data, and managing data workflows using Python.',
     icon: <BsRobot />, // Automation and bot-like tasks
   },
   {
     heading: 'Full-Stack (MERN) Development',
-    text: 'Developing scalable and feature-rich applications using the MERN stack i.e. MongoDB, Express.js, React.js, and Node.js.',
+    text: 'Architecting and implementing full-stack applications using MongoDB, Express, React, and Node.js with a focus on performance and scalability.',
     icon: <BsDiagram3 />, // Represents full architecture
   },
 ];

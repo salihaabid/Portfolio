@@ -1,45 +1,109 @@
+// .portNav {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 30px;
+//   nav {
+//     ul {
+//       display: flex;
+//       list-style: none;
+//       padding: 0;
+//       margin: 0;
+
+//       li {
+//         margin: 0 15px;
+//         cursor: pointer;
+//         font-size: 15px;
+//         font-weight: 500;
+//         transition: all 0.3s ease-in-out;
+//         text-transform: uppercase;
+//         &:hover {
+//           color: #149ddd;
+//         }
+
+//         &.active {
+//           color: #149ddd;
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 320px) {
+//   .portNav {
+//     nav {
+//       ul {
+//         flex-direction: column;
+//         gap: 0.5rem;
+//         align-items: center;
+//       }
+
+//       li {
+//         font-size: 14px;
+//         padding: 0.5rem;
+//       }
+//     }
+//   }
+// }
+
 .portNav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  background-color: #eaf6fc; // 🌊 Light blue bg
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); // soft lift
+
   nav {
     ul {
       display: flex;
       list-style: none;
       padding: 0;
       margin: 0;
+      gap: 1rem;
 
       li {
-        margin: 0 15px;
-        cursor: pointer;
+        padding: 0.5rem 1.2rem;
+        border-radius: 999px;
+        background-color: #f0f4f8;
+        color: #333;
         font-size: 15px;
         font-weight: 500;
+        cursor: pointer;
         transition: all 0.3s ease-in-out;
         text-transform: uppercase;
+        border: 2px solid transparent;
+
         &:hover {
+          background-color: #d5eefd;
           color: #149ddd;
         }
 
         &.active {
-          color: #149ddd;
+          background-color: #149ddd;
+          color: #fff;
+          border-color: #149ddd;
+          font-weight: 600;
         }
       }
     }
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 480px) {
   .portNav {
+    padding: 1rem;
     nav {
       ul {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 0.5rem;
-        align-items: center;
       }
 
       li {
         font-size: 14px;
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
       }
     }
   }

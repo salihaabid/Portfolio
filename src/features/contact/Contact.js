@@ -28,7 +28,7 @@ const ContactInfo = () => {
         </div>
         <div className={styles.text}>
           <h4>Address</h4>
-          <p>Nishtar Colony, Lahore Pakistan</p>
+          <p>Lahore Pakistan</p>
         </div>
       </div>
       <div className={styles.infoItem}>
@@ -65,7 +65,7 @@ const ContactInfo = () => {
       <div className={styles.banner}>
         <h3>Got a project in mind?</h3>
         <p>
-          Let’s connect and bring your ideas to life — together, we’ll create
+          Let’s connect and bring your ideas to life together, we’ll create
           something you’ll be proud to call yours.
         </p>
       </div>

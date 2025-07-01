@@ -30,9 +30,9 @@ function Info() {
         </div>
 
         <p className={styles.infoPara}>
-          My skills include JavaScript, and the MERN stack (MongoDB, Express.js,
+          My skills include JavaScript and the MERN stack (MongoDB, Express.js,
           React js, Node.js). I also have experience working with Python, web
-          automation & scraping, and PostgreSQL. I am constantly learning and
+          automation, scraping and PostgreSQL. I am constantly learning and
           expanding my skill set to include the latest technologies and best
           practices.
         </p>

@@ -34,7 +34,9 @@ function SumEdu() {
                 <div key={entryIndex} className={styles.entry}>
                   {entry.title && <h4>{entry.title}</h4>}
                   {entry.date && <p className={styles.date}>{entry.date}</p>}
-                  {entry.institution && <p>{entry.institution}</p>}
+                  {entry.institution && (
+                    <p className={styles.institution}>{entry.institution}</p>
+                  )}
                   {entry.description && <p>{entry.description}</p>}
                 </div>
               ))}
@@ -56,11 +58,28 @@ function ProfExp() {
               <div key={entryIndex} className={styles.entry}>
                 {entry.title && <h4>{entry.title}</h4>}
                 {entry.date && <p className={styles.date}>{entry.date}</p>}
-                {entry.company && <p>{entry.company}</p>}
-                {entry.points && (
+                {entry.company && (
+                  <p className={styles.institution}>{entry.company}</p>
+                )}
+                {/* {entry.points && (
                   <ul className={styles.points}>
                     {entry.points.map((point, i) => (
                       <li key={i}>{point}</li>
+                    ))}
+                  </ul>
+                )} */}
+                {entry.points && (
+                  <ul className={styles.points}>
+                    {entry.points.map((point, i) => (
+                      <li key={i}>
+                        {typeof point === 'string' ? (
+                          point
+                        ) : (
+                          <>
+                            <strong>{point.heading}:</strong> {point.text}
+                          </>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 )}

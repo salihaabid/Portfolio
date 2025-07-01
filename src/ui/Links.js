@@ -12,7 +12,7 @@ const links = [
   // },
   {
     icon: <FaEnvelope />,
-    path: 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox',
+    path: 'mailto:salihabid349@gmail.com',
   },
   {
     icon: <FaLinkedin />,

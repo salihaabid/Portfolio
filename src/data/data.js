@@ -113,9 +113,10 @@ export const resumeData1 = [
       {
         title: 'Intermediate Student',
         // date: '',
-        institution: 'Aabru Welfare College, Lahore, Pakistan  (2023 - 2025)',
+        institution:
+          'University of Central Punjab (UCP), Lahore, Pakistan  (2023 - 2025)',
         description:
-          'Currently pursuing my intermediate education at Aabru Welfare College, where I am engaged in academy-based learning. This program is equipping me with a solid academic foundation and the skills necessary for my future career in web development.',
+          'Completed a comprehensive program with a strong emphasis on software engineering fundamentals, application development, and modern technologies. Gained practical experience in designing, developing, and implementing software solutions, with a focus on problem-solving, analytical thinking, and technical excellence.',
       },
     ],
   },

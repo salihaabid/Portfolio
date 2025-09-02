@@ -236,6 +236,16 @@ export const resumeData2 = [
 
 export const portData = [
   {
+    id: 8,
+    name: 'AANGAN CLONE',
+    description:
+      ' Complete E-commerce platform featuring product management, order tracking, and secure authentication.',
+    src: 'aangan.png', // Optional thumbnail
+    liveLink: 'https://aangan-frontend.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/aangan-final',
+    category: 'MERN',
+  },
+  {
     id: 1,
     name: 'WORLDWISE',
     description: 'A travelling web project where you can add travel notes.',
@@ -278,7 +288,7 @@ export const portData = [
     src: 'atomic-blog-2.png',
     liveLink: 'https://react-blog-seven-chi.vercel.app/',
     githubLink: 'https://github.com/salihaabid/react-blog',
-    category: 'MERN',
+    category: 'Vanilla',
   },
   {
     id: 6,
@@ -287,7 +297,7 @@ export const portData = [
     src: 'far-away.png',
     liveLink: 'https://far-away-gamma-woad.vercel.app/',
     githubLink: 'https://github.com/salihaabid/far-away',
-    category: 'MERN',
+    category: 'Vanilla',
   },
   {
     id: 7,

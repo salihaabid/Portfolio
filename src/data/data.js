@@ -172,68 +172,6 @@ export const resumeData2 = [
   },
 ];
 
-// export const resumeData1 = [
-//   {
-//     section: 'Summary',
-//     // name: 'Saliha Abid',
-//     description: `As a passionate Full Stack Developer with a strong command of JavaScript, its modern frameworks (React.js, Express.js, Node.js, Mongodb), and Python tools like Scrapy and Selenium, I specialize in building robust, scalable, and user-centric web applications. I bring hands-on experience in frontend and backend development, database management, web automating and scrapping tasks to improve efficiency. Detail-obsessed and committed to high performance, and continuous learning`,
-//   },
-//   {
-//     section: 'Education',
-//     entries: [
-//       {
-//         title: 'Intermediate Student',
-//         date: '2023 - 2025',
-//         institution:
-//           'Aabru Welfare College (Academy-based learning), Lahore, Pakistan',
-//         description:
-//           'Currently pursuing my intermediate education at Aabru Welfare College, where I am engaged in academy-based learning. This program is equipping me with a solid academic foundation and the skills necessary for my future career in web development.',
-//       },
-//     ],
-//   },
-// ];
-
-// export const resumeData2 = [
-//   {
-//     section: 'Professional Experience',
-//     entries: [
-//       {
-//         title: 'Full Stack Web Development Intern – PITB',
-//         date: 'Jun 2024 – Sep 2024',
-//         company: 'Arfa IT Tower , Lahore, Pakistan',
-//         points: [
-//           'Built responsive, interactive web applications using core JavaScript and modern JS frameworks.',
-//           'Delivered real-world features across the stack including APIs, dynamic routing, and UI components.',
-//         ],
-//       },
-
-//       {
-//         title: 'Python & DB Intern – PITB',
-//         date: 'Oct 2024 – March 2025',
-//         company: 'Arfa IT Tower , Lahore, Pakistan',
-//         points: [
-//           'Developed powerful scraping scripts using Python & Selenium to extract structured data from complex websites.',
-//           'Designed, stored, and maintained data using PostgreSQL with a focus on performance and integrity.',
-//         ],
-//       },
-//     ],
-//   },
-
-//   {
-//     section: 'My Skills',
-//     entries: [
-//       {
-//         title: 'Following are the skills I pursue and continue to develop:',
-//         points: [
-//           'MERN STACK: Creating structured, responsive, interactive, dynamic and visually appealing web pages.',
-//           'Python: Building dynamic web content, automation scripts, and web scraping tools.',
-//           'PostgreSQL: Managing and querying relational databases efficiently for structured data workflows.',
-//         ],
-//       },
-//     ],
-//   },
-// ];
-
 export const portData = [
   {
     id: 8,
@@ -245,15 +183,7 @@ export const portData = [
     githubLink: 'https://github.com/salihaabid/aangan-final',
     category: 'MERN',
   },
-  {
-    id: 1,
-    name: 'WORLDWISE',
-    description: 'A travelling web project where you can add travel notes.',
-    src: 'worldwise.png', // Optional thumbnail
-    liveLink: 'https://worldwise-nu.vercel.app/',
-    githubLink: 'https://github.com/salihaabid/Worldwise',
-    category: 'MERN',
-  },
+
   {
     id: 2,
     name: 'PZZA CO.',
@@ -298,6 +228,15 @@ export const portData = [
     liveLink: 'https://far-away-gamma-woad.vercel.app/',
     githubLink: 'https://github.com/salihaabid/far-away',
     category: 'Vanilla',
+  },
+  {
+    id: 1,
+    name: 'WORLDWISE',
+    description: 'A travelling web project where you can add travel notes.',
+    src: 'worldwise.png', // Optional thumbnail
+    liveLink: 'https://worldwise-nu.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/Worldwise',
+    category: 'MERN',
   },
   {
     id: 7,

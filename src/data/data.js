@@ -111,7 +111,7 @@ export const resumeData1 = [
     section: 'Education',
     entries: [
       {
-        title: 'Intermediate Student',
+        // title: 'Intermediate Student',
         // date: '',
         institution:
           'University of Central Punjab (UCP), Lahore, Pakistan  (2023 - 2025)',

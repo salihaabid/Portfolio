@@ -114,7 +114,7 @@ export const resumeData1 = [
         // title: 'Intermediate Student',
         // date: '',
         institution:
-          'University of Central Punjab (UCP), Lahore, Pakistan  (continued..)',
+          'University of Central Punjab (UCP), Lahore, Pakistan  ( continued.. )',
         description:
           'Completed a comprehensive program with a strong emphasis on software engineering fundamentals, application development, and modern technologies. Gained practical experience in designing, developing, and implementing software solutions, with a focus on problem-solving, analytical thinking, and technical excellence.',
       },

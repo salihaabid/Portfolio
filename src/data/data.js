@@ -183,7 +183,16 @@ export const portData = [
     githubLink: 'https://github.com/salihaabid/aangan-final',
     category: 'MERN',
   },
-
+  {
+    id: 9,
+    name: 'TALK-TRADE',
+    description:
+      'Real-time chat app using MERN, Socket.io, TailwindCSS & DaisyUI with JWT auth, live chat, online users, Zustand state & error handling.',
+    src: 'chat-app.png', // Optional thumbnail
+    liveLink: 'https://chat-application-beta-lake.vercel.app/',
+    githubLink: 'https://github.com/salihaabid/chat-application',
+    category: 'MERN',
+  },
   {
     id: 2,
     name: 'PZZA CO.',
